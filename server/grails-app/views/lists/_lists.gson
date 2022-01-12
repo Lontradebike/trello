@@ -1,0 +1,7 @@
+import reacttrello.Lists
+
+model {
+	Lists lists
+}
+
+json g.render(lists, [resolveTemplate: false])

@@ -1,0 +1,7 @@
+import reacttrello.Lists
+
+model {
+	Lists lists
+}
+
+json tmpl.lists(lists)

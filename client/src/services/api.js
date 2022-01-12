@@ -1,7 +1,7 @@
 export function loadLists() {
   return [
-    { 
-      title: 'Tarefas', 
+    {
+      title: 'Tarefas',
       creatable: true,
       cards: [
         {
@@ -22,10 +22,13 @@ export function loadLists() {
           labels: [],
           user: 'https://avatars.dicebear.com/api/bottts/ravte.svg'
         },
-        
-        
+
+
       ]
     },
+
+
+
     { 
       title: 'Fazendo', 
       creatable: false,
@@ -57,6 +60,7 @@ export function loadLists() {
    
       ]
     },
+
     { 
       title: 'Concluído', 
       creatable: false,

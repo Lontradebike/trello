@@ -1,0 +1,8 @@
+import reacttrello.Lists
+
+model {
+	Iterable<Lists> listsList
+}
+
+json tmpl.lists(listsList ?: [])
+
